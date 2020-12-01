@@ -2,9 +2,9 @@
 
 Class Database{
  
-	private $server = "mysql:host=sql309.epizy.com;dbname=epiz_27359687_ecomm";
-	private $username = "epiz_27359687";
-	private $password = "1QFnGSOYkPe6x";
+	private $server = "mysql:host=localhost;dbname=ecomm";
+	private $username = "root";
+	private $password = "";
 	private $options  = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,);
 	protected $conn;
  	
